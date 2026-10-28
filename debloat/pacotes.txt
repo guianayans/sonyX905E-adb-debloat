@@ -1,0 +1,27 @@
+# Pacotes removidos por padrão na Sony XBR-75X905E (BRAVIA_ATV2, Android TV 9, PTT1.190515.001.S54).
+# Tudo aqui é vitrine, ajuda, demonstração de loja, modo hotel/profissional ou telemetria.
+# Um pacote por linha; o que vem depois de "#" é comentário. Classificação do UAD-ng entre colchetes.
+
+# Vitrine, ajuda e demonstração da Sony
+com.sony.dtv.sonyselect                 # Sony Select: vitrine de apps e assinaturas [Recomendado]
+com.sony.dtv.sonyselect.overlay         # Configuração do Sony Select (fora do UAD)
+com.sony.dtv.smarthelp                  # Ajuda inteligente [Recomendado]
+com.sony.dtv.imanual                    # i-Manual, o manual na tela (fora do UAD)
+com.sony.dtv.demomode                   # Modo demonstração de loja (fora do UAD)
+com.sony.dtv.demosupport                # Suporte ao modo demonstração (fora do UAD)
+com.sony.dtv.multiscreendemo            # Demonstração de várias telas para lojas (fora do UAD)
+
+# Modo hotel e profissional (B2B) — rodam o tempo todo, ~5 MB cada
+com.sony.dtv.b2b.prosettings            # Configurações do modo profissional (fora do UAD)
+com.sony.dtv.b2b.rs232csupport          # Controle por porta RS-232C (fora do UAD)
+com.sony.dtv.b2b.vendorprotocol         # Protocolo de integração para hotéis (fora do UAD)
+com.sony.dtv.b2b.importexport           # Importar/exportar configurações de hotel (fora do UAD)
+# com.sony.dtv.b2b.hotelmode            # NÃO REMOVER: o serviço tvdotactiondevicecontrol usa o provider
+#                                         com.sony.dtv.b2b.hotelsettings dele e fecha em loop sem ele.
+
+# Google
+com.google.android.play.games           # Play Games [Recomendado]
+com.google.android.tv.bugreportsender   # Envio de relatórios de bug [Recomendado]
+com.google.android.feedback             # Envio de relatórios de falha [Recomendado]
+com.google.android.onetimeinitializer   # Primeira configuração [Recomendado]
+com.google.android.sss.authbridge       # Configuração pelo celular, só no primeiro boot [Recomendado]

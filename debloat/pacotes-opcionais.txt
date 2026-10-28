@@ -1,0 +1,10 @@
+# Opcionais: funções que algumas pessoas usam. Só saem com ./debloat.sh --opcionais.
+# Apague as linhas do que você quer manter antes de rodar.
+
+com.sony.dtv.discovery                  # Sony Discover: barra de conteúdo do botão Discover (~27 MB) (fora do UAD)
+com.vewd.core.integration.dia           # Navegador Vewd da Sony; alguns apps abrem links nele [Recomendado]
+com.vewd.core.service                   # Serviço do navegador Vewd (fora do UAD)
+screnmirroring.com                      # Espelhamento de tela (Miracast); o Chromecast embutido continua [Recomendado]
+com.sony.dtv.osat.music                 # Player de música da Sony (pendrive e rede) [Recomendado]
+com.sony.dtv.timers                     # Relógio e timers da Sony, inclui o timer de desligar [Recomendado]
+com.google.android.katniss              # Busca por voz do Google (~41 MB); sem ela o microfone do controle para [Avançado]
